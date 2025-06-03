@@ -1,0 +1,193 @@
+.detail-form {
+    width: 100%;
+}
+
+.detail-form__inner {
+    width: 60%;
+    margin: 0 auto;
+    gap: 32px;
+}
+
+.breadcrumb {
+    margin-bottom: 20px;
+    font-size: 14px;
+    color: #666;
+}
+
+.breadcrumb a {
+    color: #007BFF;
+    text-decoration: none;
+}
+
+.breadcrumb span {
+    color: #333;
+    font-weight: bold;
+}
+
+.detail-form__contents {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+}
+
+.detail-form__contents-group {
+    display: flex;
+    flex-direction: row;
+    gap: 24px;
+}
+
+.detail-form__image-select {
+    width: 50%;
+}
+
+.detail-form__input-group {
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+}
+
+.detail-form__group {
+    margin-bottom: 24px;
+}
+
+.detail-form__label {
+    display: block;
+    margin-bottom: 8px;
+    font-weight: bold;
+    color: #555;
+}
+
+.detail-form__input {
+    width: 100%;
+    padding: 10px 14px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    font-size: 14px;
+    box-sizing: border-box;
+}
+
+.detail-form__season-inputs {
+    display: flex;
+    gap: 24px;
+    align-items: center;
+}
+
+.detail-form__season-input {
+    appearance: none;
+    -webkit-appearance: none;
+    width: 20px;
+    height: 20px;
+    border: 2px solid #999;
+    border-radius: 50%;
+    background-color: #fff;
+    cursor: pointer;
+    position: relative;
+}
+
+.detail-form__season-input:checked {
+    background-color: #FFD700;
+    border-color: #FFD700;
+}
+
+.detail-form__season-label {
+    display: flex;
+    align-items: center;
+    gap: 6px;
+    cursor: pointer;
+}
+
+.image__select-btn {
+    margin-top: 16px;
+    display: block;
+}
+
+.detail-form__input-description {
+    width: 100%;
+    margin-top: 24px;
+}
+
+.detail-form__textarea {
+    resize: vertical;
+    padding: 10px 14px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    font-size: 14px;
+    box-sizing: border-box;
+    width: 100%;
+    height: 120px;
+}
+
+.detail-form__btn-area {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 32px;
+}
+
+.detail-form__btn-inner {
+    display: flex;
+    justify-content: center;
+    gap: 16px;
+    flex: 1;
+}
+
+.detail-form__back-btn,
+.detail-form__send-btn {
+    padding: 10px 0;
+    width: 20%;
+    border: none;
+    border-radius: 6px;
+    font-size: 14px;
+    cursor: pointer;
+    font-weight: bold;
+}
+
+.detail-form__back-btn {
+    background-color: #e0e0e0;
+    color: #333;
+}
+
+.detail-form__send-btn {
+    background-color: #FFD700;
+    color: #333;
+}
+
+.detail-form__delete-area {
+    display: flex;
+    justify-content: flex-end;
+    margin-top: 16px;
+}
+
+.detail-form__delete-btn {
+    background-color: transparent;
+    color: #D32F2F;
+    font-size: 22px;
+    border: none;
+    cursor: pointer;
+    padding: 8px;
+    transition: background-color 0.2s, transform 0.2s;
+}
+
+.detail-form__delete-btn:hover {
+    background-color: #ffecec;
+    border-radius: 50%;
+    transform: scale(1.1);
+}
+
+.detail-form__error-message {
+    color: red;
+    font-size: 12px;
+    margin-top: 4px;
+}
+
+.card-image-preview {
+    max-width: 300px;
+    border-radius: 6px;
+}
+
+.file-name {
+    margin-top: 8px;
+    font-size: 13px;
+    color: #666;
+}
+

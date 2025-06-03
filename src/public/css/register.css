@@ -1,0 +1,156 @@
+.register-form {
+    width: 100%;
+}
+
+.register-form__heading {
+    width: 60%;
+    margin: 0 auto 40px;
+}
+
+.register-form__inner {
+    width: 60%;
+    margin: 0 auto;
+    gap: 32px;
+}
+
+.register-form__contents {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+}
+
+.register-form__group {
+    margin-bottom: 24px;
+}
+
+.register-form__label-group {
+    display: flex;
+    align-items: center;
+}
+
+.register-form__label {
+    margin-bottom: 8px;
+    font-weight: bold;
+    height: 24px;
+}
+
+.register-form__required {
+    margin-left: 5px;
+    background: #FF0000;
+    color: #FFFFFF;
+    font-size: 12px;
+    width: 24px;
+    height: 18px;
+    padding: 2px 6px;
+}
+
+.register-form__input {
+    width: 100%;
+    padding: 10px 14px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    font-size: 14px;
+    box-sizing: border-box;
+    background: #FFFFFF;
+}
+
+.register-form__season-inputs {
+    display: flex;
+    gap: 48px;
+    align-items: center;
+}
+
+.register-form__season-input {
+    appearance: none;
+    -webkit-appearance: none;
+    width: 20px;
+    height: 20px;
+    border: 2px solid #999;
+    border-radius: 50%;
+    background-color: #fff;
+    cursor: pointer;
+    position: relative;
+}
+
+.register-form__season-input:checked {
+    background-color: #FFD700;
+    border-color: #FFD700;
+}
+
+.register-form__season-label {
+    display: flex;
+    align-items: center;
+    gap: 6px;
+    cursor: pointer;
+}
+
+.image__select-btn {
+    margin-top: 24px;
+    display: block;
+}
+
+.register-form__input-description {
+    width: 100%;
+    margin-top: 24px;
+}
+
+.register-form__textarea {
+    resize: vertical;
+    padding: 10px 14px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    font-size: 14px;
+    box-sizing: border-box;
+    width: 100%;
+    height: 120px;
+    background: #FFFFFF;
+}
+
+
+
+.register-form__btn-inner {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 16px;
+    flex: 1;
+    margin-top: 32px;
+}
+
+.register-form__back-btn,
+.register-form__send-btn {
+    padding: 10px 0;
+    width: 20%;
+    border: none;
+    border-radius: 6px;
+    font-size: 14px;
+    cursor: pointer;
+    font-weight: bold;
+}
+
+.register-form__back-btn {
+    background-color: #e0e0e0;
+    color: #333;
+}
+
+.register-form__send-btn {
+    background-color: #FFD700;
+    color: #333;
+}
+
+.register-form__error-message {
+    color: red;
+    font-size: 12px;
+    margin-top: 4px;
+}
+
+.card-image-preview {
+    max-width: 300px;
+    border-radius: 6px;
+}
+
+.file-name {
+    margin-top: 8px;
+    font-size: 13px;
+    color: #666;
+}

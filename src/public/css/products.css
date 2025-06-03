@@ -1,0 +1,227 @@
+.list-form {
+    width: 100%;
+}
+
+.list-heading {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 15px;
+    padding: 0 40px;
+}
+
+h2 {
+    text-align: center;
+    padding: 10px 0;
+}
+
+.header__link {
+    width: 137px;
+    height: 50px;
+    border: 1px solid #D9C6B5;
+    border-radius: 3px;
+    background-color: #F0F0F0;
+    background: #FFA929;
+    text-decoration: none;
+    text-align: center;
+    align-items: center;
+}
+
+.list-form__group {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    padding: 0 40px;
+    gap: 30px;
+}
+
+.list-form__group-sidebar {
+    display: flex;
+    flex-direction: column;
+    align-items: left;
+    width: 20%;
+}
+
+.search-form__card {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+}
+
+.search-form__keyword-input {
+    margin-bottom: 20px;
+    padding: 14.5px 10px;
+    font-size: 14px;
+    background: #FFFFFF;
+    color: #E0DFDE;
+    border-radius: 25px;
+}
+
+
+
+.list-form__search-btn {
+    padding: 10px;
+    font-size: 16px;
+    text-align: center;
+    background: #F5C800;
+    border-radius: 5px;
+}
+
+.sort-form__price {
+    width: 100%;
+    margin-top: 40px;
+}
+
+h3 {
+    margin-bottom: 30px;
+}
+
+.sort-form__select-inner {
+    display: flex;
+    flex-direction: column;
+    border-bottom: 1px solid #E0DFDE;
+}
+
+.sort-form__select-wrapper{
+    position: relative;
+    display: flex;
+    align-items: center;
+    width: 100%;;
+}
+
+.sort-form__select {
+    margin: 0;
+    padding: 8px 16px;
+    width: 100%;
+    font-size: 14px;
+    background-color: #FFFFFF;
+    color: #4B4B4B;
+    border-radius: 5px;
+}
+
+.sort-form__select-wrapper::after {
+    position: absolute;
+    top: 50%;
+    right: 5%;
+    width: 0;
+    height: 0;
+    border-top: 4px solid #BEB1A6;
+    border-right: 4px solid transparent;
+    border-left: 4px solid transparent;
+    content: "";
+    transform: translateY(-50%);
+    pointer-events: none;
+}
+
+.sort-tag {
+    display: inline-flex;
+    align-items: center;
+    background-color: F8F8F8;
+    padding: 10px;
+    border-radius: 21px;
+    border: 2px solid #FFD700;
+    margin: 20px 0 10px;
+    font-size: 14px;
+    color: #333;
+}
+
+/* 並び替えテキスト */
+.sort-tag__label {
+    margin-right: 8px;
+}
+
+/* バツボタン（×） */
+.sort-tag__close {
+    display: inline-block;
+    width: 24px;
+    height: 24px;
+    line-height: 22px;
+    text-align: center;
+    border: 2px solid #FFD700;
+    /* 黄色の円枠 */
+    border-radius: 50%;
+    color: #FFD700;
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.2s;
+}
+
+/* hover時に少し背景色を変える（任意） */
+.sort-tag__close:hover {
+    background-color: #fff8dc;
+}
+
+.list-form__contents-inner {
+    width: 80%;
+}
+
+.list-form__group-contents {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(220px, 1fr));
+    gap: 1.5rem;
+    width: 80%;
+    height: 100%;
+}
+
+.card-content {
+    background-color: white;
+    border-radius: 5px;
+    overflow: hidden;
+    box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1);
+    display: flex;
+    flex-direction: column;
+}
+
+.card {
+    width: 100%;
+    object-fit: cover;
+}
+
+.info {
+    padding: 1rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.name {
+    font-weight: bold;
+}
+
+.price {
+    color: #333;
+    font-weight: bold;
+}
+
+.pagination {
+    text-align: center;
+    margin-top: 2rem;
+}
+
+.pagination nav {
+    display: inline-block;
+}
+
+.pagination nav div>span,
+.pagination nav div>a {
+    display: inline-block;
+    margin: 0 5px;
+    padding: 8px 14px;
+    border-radius: 50%;
+    background-color: #fff;
+    color: #333;
+    border: 1px solid #ccc;
+    text-decoration: none;
+}
+
+.pagination nav div>span.active {
+    background-color: #FFA929;
+    color: #fff;
+    font-weight: bold;
+    border: none;
+}
+
+.pagination nav div>a:hover {
+    background-color: #f5f5f5;
+}

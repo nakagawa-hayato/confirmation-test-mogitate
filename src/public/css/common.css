@@ -1,0 +1,46 @@
+html,
+body {
+    height: 100%;
+    font-family: "Helvetica", sans-serif;
+}
+
+body,
+textarea,
+input {
+    color: #4B4B4B;
+}
+
+textarea::placeholder,
+input::placeholder {
+    color: #E0DFDE;
+}
+
+.app {
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+}
+
+/* ヘッダー */
+.header {
+    padding: 10px 20px;
+    height: 53px;
+    border: 1px solid #E0DFDE;
+}
+
+h1 {
+    font-family: jsMath-cmti10;
+    font-size: 30px;
+    color: #F5C800;
+    font-style: italic;
+}
+
+/* コンテンツ */
+.content {
+    display: flex;
+    flex-direction: column;
+    flex-grow: 1;
+    justify-content: center;
+    background: #f8f8f8;
+    padding: 70px 0;
+}
